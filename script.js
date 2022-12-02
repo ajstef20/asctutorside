@@ -10,7 +10,7 @@ function saveUserData() {
   if (firstName.length == 0 || lastName.length == 0 || userEmail.length == 0) {
     alert("Please fill out all required fields!");
   } else {
-    window.location.href = "subjects_listing.html";
+    window.location.href = "calendar.html";
   }
 }
 /* When the user clicks on the button,
