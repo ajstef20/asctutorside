@@ -1,13 +1,11 @@
-let firstName = document.getElementById("first-name");
-let lastName = document.getElementById("last-name");
-let userEmail = document.getElementById("uni-email");
+let firstName = document.getElementById("netid");
+let lastName = document.getElementById("password");
 
 function saveUserData() {
-  firstName = document.getElementById("first-name").value;
-  lastName = document.getElementById("last-name").value;
-  userEmail = document.getElementById("uni-email").value;
+  netID = document.getElementById("netid").value;
+  password = document.getElementById("password").value;
 
-  if (firstName.length == 0 || lastName.length == 0 || userEmail.length == 0) {
+  if (netID.length == 0 || password.length == 0) {
     alert("Please fill out all required fields!");
   } else {
     window.location.href = "calendar.html";
