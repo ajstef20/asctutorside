@@ -1,5 +1,5 @@
-let firstName = document.getElementById("netid");
-let lastName = document.getElementById("password");
+let netID = document.getElementById("netid");
+let password = document.getElementById("password");
 
 function saveUserData() {
   netID = document.getElementById("netid").value;
